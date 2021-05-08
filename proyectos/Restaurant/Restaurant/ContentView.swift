@@ -16,7 +16,8 @@ struct ContentView: View {
         NavigationView{
             List(platillos){platillo in listaPlatillos(platillo:platillo)
                 }
-        }.navigationTitle("Restaurant Menu")
+            .navigationTitle("Restaurant Menu")
+        }
         
     }
 }
